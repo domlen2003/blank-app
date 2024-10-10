@@ -43,7 +43,7 @@ if uploaded_image is not None:
                 {
                 "role": "user",
                 "content": [
-                    {"type": "text", "text": "Analyze the ingredients of food in this image or state if ther is no detectable food:"},
+                    {"type": "text", "text": "Analyze the ingredients of food in this image and also possible non visible ingredients or state if there is no detectable food:"},
                     {
                     "type": "image_url",
                     "image_url": {
